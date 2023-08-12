@@ -13,9 +13,6 @@
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # [Aa]ssets/AssetStoreTools*
 
-# Visual Studio cache directory
-.vs/
-
 # Gradle cache directory
 .gradle/
 
@@ -52,6 +49,9 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Meta files
+*.meta
+
 # Windows
 Thumbs.db
 Thumbs.db.meta
@@ -62,9 +62,7 @@ Thumbs.db.meta
 # VS Code
 *.vscode
 .vsconfig
+vs/
 
-# Meta files
-*.meta
-
-# JetBrains Specific
+# JetBrains
 .idea
